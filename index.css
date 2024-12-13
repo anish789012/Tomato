@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.2rem;
+  background-color: white; /* Darker black for contrast */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 5em;
+}
+header img {
+  width: 6em;
+  height: 1.6em;
+  cursor: pointer;
+}
+header .btn {
+  font-size: 16px;
+  color: red;
+  padding: 8px 16px;
+  background-color: rgb(43, 11, 11);
+  margin-right: 5em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+header button:hover {
+  transform: scale(1.05);
+}
+section.first {
+  position: relative;
+  width: 99vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+section.first img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+}
+.overlay-text {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 8px;
+}
+.overlay-text p {
+  margin-top: 8px;
+}
+.overlay-text button {
+  margin-top: 12px;
+  padding: 8px;
+  border-radius: 8px;
+  color: black;
+  border: none;
+  background-color: #93e938;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.overlay-text button:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+section.second {
+  padding: 40px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+section.second h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: rgb(226, 98, 98);
+  font-family: Arial, sans-serif;
+}
+
+.menu-list {
+  display: flex;
+  gap: 20px;
+  justify-items: center; /* Center images horizontally */
+  /* background-color: #aad57c; */
+}
+
+.menu-list img {
+  width: 100%;
+  max-width: 160px;
+  border: none;
+  padding: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.menu-list img:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+section.third {
+  padding: 20px 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+section.third h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: rgb(226, 98, 98);
+  font-family: "Arial", sans-serif;
+}
+
+section.third .food {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+section.third .food img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section.third .food p {
+  margin-top: 8px;
+  font-size: 1.6em;
+  color: #333;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+section.third .food img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+section.fourth {
+  padding: 20px 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+section.fourth h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: rgb(226, 98, 98);
+  font-family: "Arial", sans-serif;
+}
+
+section.fourth .food {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+section.fourth .food img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section.fourth .food p {
+  margin-top: 8px;
+  font-size: 1.6em;
+  color: #333;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+section.fourth .food img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+section.fifth {
+  text-align: center;
+  background-image: url(/about.jpg);
+  height: auto;
+}
+section.fifth h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: rgb(55, 30, 30);
+  font-family: "Arial", sans-serif;
+  padding-top: 20px;
+}
+section.fifth .about p {
+  margin-top: 6px;
+  padding: 4px;
+  font-size: 1.2em;
+  color: rgb(0, 0, 0);
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 20px;
+}
+section.fifth .about button {
+  padding: 8px;
+  border-radius: 8px;
+  color: rgb(245, 234, 234);
+  border: none;
+  background-color: #000000;
+  cursor: pointer;
+  transition: 0.3s ease, transform 0.3s ease;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.about button:hover {
+  transform: scale(1.1);
+}
+/* General footer styles */
+.footer {
+  color: aliceblue;
+  background-color: #424141;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 80px 8vw 20px;
+  /* margin-top: 100px; */
+}
+
+/* Footer content grid layout */
+.footer-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 80px;
+}
+
+/* Common styles for footer content sections */
+.footer-content-left,
+.footer-content-center,
+.footer-content-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* List item styles within footer content */
+.footer-content-left li,
+.footer-content-center li,
+.footer-content-right li {
+  list-style: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Heading styles within center and right content sections */
+.footer-content-center h2,
+.footer-content-right h2 {
+  color: white;
+}
+
+/* Social item image styles */
+.footer-social-item img {
+  width: 30px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+/* Horizontal rule styles */
+.footer hr {
+  width: 100%;
+  height: 2px;
+  margin: 20px 0;
+}
