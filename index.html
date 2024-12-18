@@ -8,8 +8,7 @@
   </head>
   <body>
     <header>
-      <img src="/images/logo1.png" alt="" />
-
+      <a href="/"><img src="/images/logo1.png" alt="logo" /></a>
       <button class="btn">Login</button>
     </header>
 
@@ -21,42 +20,69 @@
           be delivered to your doors. -->
           You order, we delivers.
         </p>
-        <button>View More</button>
+        <button onclick="location.href='#third'">View More</button>
       </div>
     </div>
     <hr />
     <section class="second">
       <h1>EXPLORE MORE</h1>
       <div class="menu-list">
-        <img src="/images/menu_1.png" alt="Pasta" />
-        <img src="/images/menu_2.png" alt="Rolls" />
-        <img src="/images/menu_3.png" alt="" />
-        <img src="/images/menu_4.png" alt="Sandwich" />
-        <img src="/images/menu_5.png" alt="" />
-        <img src="/images/menu_6.png" alt="" />
-        <img src="/images/menu_7.png" alt="" />
-        <img src="/images/menu_8.png" alt="" />
+        <div class="menu1">
+          <img src="/images/menu_1.png" alt="Pasta" />
+          <p>Salad</p>
+        </div>
+        <div class="menu2">
+          <img src="/images/menu_2.png" alt="Pasta" />
+          <p>Rolls</p>
+        </div>
+
+        <div class="menu3">
+          <img src="/images/menu_3.png" alt="" />
+          <p>Desserts</p>
+        </div>
+        <div class="menu4">
+          <img src="/images/menu_4.png" alt="Sandwich" />
+          <p>Sandwich</p>
+        </div>
+        <div class="menu5">
+          <img src="/images/menu_5.png" alt="" />
+          <p>Cake</p>
+        </div>
+        <div class="menu">
+          <img src="/images/menu_6.png" alt="" />
+          <p>Pure Veg</p>
+        </div>
+
+        <div class="menu">
+          <img src="/images/menu_7.png" alt="" />
+          <p>Pasta</p>
+        </div>
+
+        <div class="menu">
+          <img src="/images/menu_8.png" alt="" />
+          <p>Noddles</p>
+        </div>
       </div>
     </section>
     <hr />
-    <section class="third">
+    <section class="third" id="third">
       <h1>TRENDING</h1>
       <div class="food">
         <div class="food1">
           <img src="/images/food_1.png" alt="" />
-          <p>Green Beans</p>
+          <p>Greek Salad <span>Rs. 500</span></p>
         </div>
         <div class="food2">
           <img src="/images/food_7.png" alt="" />
-          <p>Chicken Rolls</p>
+          <p>Chicken Rolls <span>Rs. 350</span></p>
         </div>
         <div class="food3">
           <img src="/images/food_3.png" alt="" />
-          <p>Radicchio Salad</p>
+          <p>Radicchio Salad <span>Rs. 700</span></p>
         </div>
         <div class="food4">
           <img src="/images/food_4.png" alt="" />
-          <p>Halloumi</p>
+          <p>Halloumi <span>Rs. 400</span></p>
         </div>
       </div>
     </section>
@@ -66,19 +92,19 @@
       <div class="food">
         <div class="food1">
           <img src="/images/food_32.png" alt="" />
-          <p>Hanoi Noddle</p>
+          <p>Hanoi Noddle <span>Rs. 300</span></p>
         </div>
         <div class="food2">
           <img src="/images/food_24.png" alt="" />
-          <p>Fry Rice</p>
+          <p>Rice Zucchini <span>Rs. 600</span></p>
         </div>
         <div class="food3">
           <img src="/images/food_26.png" alt="" />
-          <p>Arrabiata Pasta</p>
+          <p>Arrabiata Pasta <span>Rs. 800</span></p>
         </div>
         <div class="food4">
           <img src="/images/food_29.png" alt="" />
-          <p>Spaghetti</p>
+          <p>Butter Spaghetti <span>Rs. 550</span></p>
         </div>
       </div>
     </section>
@@ -101,7 +127,7 @@
         For Better Experience Download <br />
         Tomato App
       </p>
-      <!-- <h6>We working on app will coming sooon!</h6> -->
+
       <div class="app-download-platforms">
         <img src="/images/app_store.png" alt="" />
         <img src="/images/play_store.png" alt="" />
@@ -133,7 +159,7 @@
           <div class="footer-content-right">
             <h2>Company</h2>
             <ul>
-              <li>Home</li>
+              <li><a href="/">Home</a></li>
               <li>Delivery</li>
               <li>Privacy Policy</li>
             </ul>
